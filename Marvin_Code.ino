@@ -32,9 +32,10 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   //check wall ahead
-  int wallAhead  = 
-
+  int wallAhead  = readLongIR();
+   
   //if wall ahead
+    int wallRight = readShortIR();
     //if no wall on right, turn right
     turnRight90();
     
